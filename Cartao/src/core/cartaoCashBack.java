@@ -7,9 +7,7 @@ public class cartaoCashBack extends cartaoPrePago {
 			int tipo) {
 		super(numeroCartao, nomeTitular, anoValidade, mesValidade);
 		this.tipo = tipo;
-		
-		
-	}
+		}
 	public int getTipo() {
 		return tipo;
 	}
@@ -35,27 +33,8 @@ public class cartaoCashBack extends cartaoPrePago {
 		return false;
 		
 				
-				
-			}
-		}
+		}	
 		
-			else if (tipo == 1) {
-				super.saldo = super.saldo (0.2 * saldo);
-				
-			
-		}
-		else if (tipo == 2) {
-			
-		}
-		else if (tipo == 3) {
-			
-		}
-		else if(tipo == 4) {
-			
-		}
-		else if (tipo == 5){
-			System.out.printf(" por favor tipo do cartão invalido",tipo);	
-			
-		}
 	}
 }
+
